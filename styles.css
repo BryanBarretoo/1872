@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('./img/WhatsApp\ Image\ 2023-11-12\ at\ 13.28.10.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f4f4f4;
+    height: 100%; 
+}
+
+.texto-branco {
+    color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.p1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.h2 {
+    padding: 10px;
+    size: 50;
+}
+
+.barber-image {
+    width: 30%;
+    height: 30%;
+}
+
+.barber-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+    background-color: #555;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .service {
+        width: 100%;
+    }
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label,
+form textarea,
+form input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#location {
+    text-align: center;
+}
+
+#location p {
+    margin-bottom: 1em;
+}
+
+.container-contato {
+    background-color: #555;
+    margin: 50px;
+}
